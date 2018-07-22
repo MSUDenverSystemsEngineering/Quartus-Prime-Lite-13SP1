@@ -196,7 +196,7 @@ Try {
 		[string]$installPhase = 'Post-Uninstallation'
 
 		## <Perform Post-Uninstallation tasks here>
-		Remove-Folder -Path "C:\Quartus"
+		Remove-Folder -Path "C:\Quartus\13.0sp1"
 
 	}
 
